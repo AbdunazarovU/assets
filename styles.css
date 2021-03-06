@@ -1,0 +1,122 @@
+body{
+    background-color: #b4c9db;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.sitenav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6a96d8;
+}
+.container{
+    width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.main-title{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e7f0f9;
+    margin: 0;
+}
+.circle{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #e7f0f9;
+    margin-right: .7rem;
+}
+.main-section{
+    background-color: #ffffff;
+}
+.main-section-top{
+    display: flex;
+    align-items: center;
+    color: #e7e6e5;
+    
+    text-transform: uppercase;
+}
+hr{
+    width: 40%;
+    border: 1px solid #e7e6e5;
+}
+.time{
+    font-size: 11px;
+    color: #bcbcbb;
+    display: block;
+    margin-top: 5px;
+}
+.time-left{
+    text-align: right;
+}
+.message-wrapper{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+
+.message-wrapper-topleft-peace{
+    position: absolute;
+    top: -6.5px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: #e6edf6;
+    transform: rotate(45deg);
+}
+.message-wrapper-topright-peace{
+    position: absolute;
+    top: -6.5px;
+    right: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: #f2f2f2;
+    transform: rotate(45deg);
+}
+.message-wrapper-main{
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+    max-width: 245px;
+    background-color: #e6edf6;
+    padding: .6rem;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #242a32;
+}
+.message{
+    margin: 0;
+}
+.message-wrapper-main-me{
+    margin-left: auto;
+    background-color: #f2f2f2;
+}
+.blocked-user{
+    background-color: #ffc2c1;
+}
+.message-container{
+    border-top: 1px solid #e8e8e8;
+    padding-top: 1rem;
+}
+.message-text{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+.message-button{
+    float: right;
+    color: #7aa0dc;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
